@@ -12,16 +12,18 @@
 >	- Паспорт документа (`.pdf` документ, содержащий в себе информацию о подписантах и изменениях в отправке документа)
 >	-  Подписанный документ
 > - Еше N (кол-во подписантов) директорий (папок) в каждой из которых лежит подпись подписанта в формате `.xml`
+
+
 ![Содержание](https://github.com/Tr8ch/AnalysId/blob/main/img/Soderzhanie.png)
 
 #### Что конкретно подписывается? - Хеш, бинарные данные, UUID документ и т.д.
 > - Хэш вашего документа 
 #### Как проверяется на сервисе?
 > - Непосредственно сервиса проверки подписанного документа на легитимность нет. Но на странице с документом может быть флаг "Подписан/Ожидает подписания/Отправлен/Черновик" что и являеся их проверкой.
-![Подписан](https://github.com/Tr8ch/AnalysId/blob/main/img/)Podpisan.png)
-![Ожидает подписания](https://github.com/Tr8ch/AnalysId/blob/main/img/)Ozhidaet.png)
-![Отправлен](https://github.com/Tr8ch/AnalysId/blob/main/img/)Otpravlen.png)
-![Черновик](https://github.com/Tr8ch/AnalysId/blob/main/img/)Chernovik.png)
+![Подписан](https://github.com/Tr8ch/AnalysId/blob/main/img/Podpisan.png)
+![Ожидает подписания](https://github.com/Tr8ch/AnalysId/blob/main/img/Ozhidaet.png)
+![Отправлен](https://github.com/Tr8ch/AnalysId/blob/main/img/Otpravlen.png)
+![Черновик](https://github.com/Tr8ch/AnalysId/blob/main/img/Chernovik.png)
 
 #### Как можно проверить подпись вне этого сервиса?
 > - Проверить легитимность подписи можно на сайте https://ezsigner.kz/#!/checkCMS, отправив `.xml` подпись каждого подписанта отдельно. 
