@@ -20,6 +20,8 @@
 > - Хэш вашего документа 
 #### Как проверяется на сервисе?
 > - Непосредственно сервиса проверки подписанного документа на легитимность нет. Но на странице с документом может быть флаг "Подписан/Ожидает подписания/Отправлен/Черновик" что и являеся их проверкой.
+
+
 ![Подписан](https://github.com/Tr8ch/AnalysId/blob/main/img/Podpisan.png)
 ![Ожидает подписания](https://github.com/Tr8ch/AnalysId/blob/main/img/Ozhidaet.png)
 ![Отправлен](https://github.com/Tr8ch/AnalysId/blob/main/img/Otpravlen.png)
