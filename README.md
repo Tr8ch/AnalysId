@@ -321,3 +321,5 @@ curl --location 'https://api.idocs.kz/api/v2/reference/fact-documents/iDocsApi.c
   "responseObjects": null
 }
 ```
+5. Пример ответа на фронте:
+   ![EzsignerCheck](img/ezsigner.jpg)
